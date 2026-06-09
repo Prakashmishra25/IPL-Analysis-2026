@@ -1,33 +1,115 @@
-# IPL 2026 - Complete Dataset
+# 🏏 IPL 2026 Analytics Project
 
-## Key Statistics (So far)
-- **Most Runs**: Abhishek Sharma (SRH) - 380 runs
-- **Most Wickets**: Bhuvneshwar Kumar (RCB) - 14 wickets
-- **Best Batting Strike Rate**: Priyansh Arya (PBKS) - 249.01
-- **Best Bowling Economy**: Mohsin Khan (LSG) - 6.37
-- **Boundary Meter**: Sixes - 691, Fours - 1207
-- **Player of the Tournament**: Vaibhav Sooryavanshi (RR)
-- **Centuries in Tournament**: 8
-- **Lowest Total**: DC - 75/10 vs RCB
-- **Highest Total**: PBKS - 265/4 vs DC
+## 📌 Project Overview
 
-<!--
-- **Best Bowling**: _ (_) - _/_ vs _
--->
- 
-## Notable Records Set
-1. **Fastest Century**: Vaibhav Sooryavanshi (RR) - 36 balls vs SRH
-2. **Highest Individual Score (Indian)**: KL Rahul (DC) - 152 runs vs PBKS
-3. **Highest Successful Run Chase**: PBKS - chased 264+ runs vs DC
-4. **Most Runs in a Day**: 986 (April 25, 2026)
-5. **Fastest 50s**: Vaibhav Sooryavanshi (RR), Abhishek Sharma (SRH) - 15 balls
-6. **Most Sixes in a Day**: 59 (April 25, 2026)
+This project analyzes the Indian Premier League (IPL) 2026 season using Python and data analytics techniques. The objective is to uncover player performance trends, team strategies, venue impacts, batting and bowling insights, and match-winning patterns through exploratory data analysis (EDA) and visualizations.
 
-## Data Sources
-Data is compiled from ESPNcricinfo, IPL official website, and Google.
+The project demonstrates real-world data cleaning, transformation, analysis, and storytelling using cricket data.
 
-## License
-This dataset is for educational and analytical purposes. 
+## 🎯 Business Questions Answered
 
-## Tags
-cricket, t20, 2026, india, ipl, sports-analytics
+* Which batsmen scored the most runs in IPL 2026?
+* Who were the leading wicket-takers?
+* Does winning the toss increase the chances of winning the match?
+* Which venues were the most batting-friendly?
+* Which teams performed consistently throughout the tournament?
+* How did scoring patterns change across different overs?
+* Which players had the best strike rates and economy rates?
+
+## 📂 Dataset Information
+
+The analysis uses multiple datasets containing:
+
+* Match Details
+* Ball-by-Ball Deliveries
+* Batting Statistics
+* Bowling Statistics
+* Fielding Statistics
+* Team Squads
+* Points Table
+* Venue Information
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* Git & GitHub
+
+## 📊 Key Analysis Performed
+
+### Match Analysis
+
+* Team-wise wins
+* Toss impact analysis
+* Venue performance comparison
+* Team consistency analysis
+
+### Batting Analysis
+
+* Orange Cap leaderboard
+* Strike rate comparison
+* Boundary analysis
+* Most sixes and fours
+
+### Bowling Analysis
+
+* Purple Cap leaderboard
+* Economy rate comparison
+* Dot-ball analysis
+* Wicket-taking trends
+
+### Venue Analysis
+
+* Average first innings score
+* Highest successful chases
+* Venue scoring patterns
+
+## 📈 Sample Insights
+
+* Identified the top-performing batsmen and bowlers of IPL 2026.
+* Measured the influence of toss decisions on match outcomes.
+* Discovered venue-specific scoring trends.
+* Analyzed over-by-over run-scoring patterns.
+* Compared team performance across the season.
+
+## 🚀 Project Structure
+
+IPL-Analysis-2026/
+
+├── data/
+
+│ ├── matches.csv
+
+│ ├── deliveries.csv
+
+│ ├── batting_stats.csv
+
+│ ├── bowling_stats.csv
+
+│ └── other datasets
+
+├── notebooks/
+
+│ └── IPL_Analysis.ipynb
+
+├── visuals/
+
+│ └── charts & dashboards
+
+└── README.md
+
+## 💡 Skills Demonstrated
+
+* Exploratory Data Analysis (EDA)
+* Data Cleaning
+* Data Visualization
+* Statistical Analysis
+* Sports Analytics
+* Data Storytelling
+* GitHub Project Documentation
+
+⭐ If you found this project interesting, feel free to star the repository.
